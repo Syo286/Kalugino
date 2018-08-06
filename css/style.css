@@ -48,11 +48,10 @@ body {
 a {
   color: #00cd00;
   letter-spacing: 0.5px; }
-
-a:hover {
-  color: #009bff;
-  text-decoration: none;
-  cursor: pointer; }
+  a:hover {
+    color: #009bff;
+    text-decoration: none;
+    cursor: pointer; }
 
 .text_thin {
   font-family: 'Roboto', sans-serif;
@@ -749,7 +748,8 @@ span[data-cal-date] {
 .form-horizontal .input-group {
   width: 100%; }
 
-.form-horizontal .form-control, .form-horizontal .form-control:first-child {
+.form-horizontal .form-control,
+.form-horizontal .form-control:first-child {
   background-color: rgba(255, 255, 255, 0);
   border: none;
   border-bottom: 1px solid #9b9b9b;
@@ -776,7 +776,10 @@ span[data-cal-date] {
   border: 1px solid #32c800;
   background-color: #32c800; }
 
-.form-horizontal button:hover, .form-horizontal button:focus, .form-horizontal button:active, .form-horizontal button:active:focus {
+.form-horizontal button:hover,
+.form-horizontal button:focus,
+.form-horizontal button:active,
+.form-horizontal button:active:focus {
   color: white;
   border: 1px solid #00c8ff;
   background-color: #00c8ff; }
