@@ -1,50 +1,51 @@
 {
-  "name": "kalugino",
-  "version": "1.0.0",
-  "description": "Kaluginskiye Prostory website",
-  "main": "index.js",
-  "scripts": {
-    "build": "gulp",
-    "watch": "gulp watch",
-    "start": "node express.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "gitserver:clients/kalugino.git"
-  },
-  "author": "SiriusDesign",
-  "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "^2.18.8",
-    "del": "^2.2.2",
-    "express": "^4.15.2",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-cache": "^0.4.6",
-    "gulp-coffee": "^2.3.4",
-    "gulp-concat": "^2.6.1",
-    "gulp-concat-css": "^2.3.0",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-debug": "^3.1.0",
-    "gulp-htmlmin": "^3.0.0",
-    "gulp-imagemin": "^3.2.0",
-    "gulp-inject-partials": "^1.0.3",
-    "gulp-jshint": "^2.0.4",
-    "gulp-notify": "^3.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.0",
-    "gulp-uglify": "^2.1.2",
-    "gulp.spritesmith": "^6.4.0",
-    "jshint": "^2.9.4"
-  },
-  "dependencies": {
-    "animate.css": "^3.5.2",
-    "bootstrap-sass": "^3.3.7",
-    "font-awesome": "^4.7.0",
-    "jquery": "^2.2.4",
-    "jquery-ujs": "^1.2.2",
-    "jquery.maskedinput": "^1.4.1",
-    "retinajs": "^2.1.1"
-  }
+    "name": "kalugino",
+    "version": "1.0.0",
+    "description": "Kaluginskiye Prostory website",
+    "main": "index.js",
+    "scripts": {
+        "build": "gulp",
+        "watch": "gulp watch",
+        "start": "node express.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "gitserver:clients/kalugino.git"
+    },
+    "author": "SiriusDesign",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.24.6",
+        "del": "^2.2.2",
+        "express": "^4.15.2",
+        "gulp": "^4.0.0",
+        "gulp-autoprefixer": "^3.1.1",
+        "gulp-cache": "^0.4.6",
+        "gulp-coffee": "^2.3.4",
+        "gulp-concat": "^2.6.1",
+        "gulp-concat-css": "^2.3.0",
+        "gulp-cssnano": "^2.1.2",
+        "gulp-debug": "^3.1.0",
+        "gulp-htmlmin": "^3.0.0",
+        "gulp-imagemin": "^4.1.0",
+        "gulp-inject-partials": "^1.0.3",
+        "gulp-jshint": "^2.0.4",
+        "gulp-notify": "^3.0.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-sourcemaps": "^2.6.0",
+        "gulp-uglify": "^2.1.2",
+        "gulp.spritesmith": "^6.4.0",
+        "jshint": "^2.9.4"
+    },
+    "dependencies": {
+        "animate.css": "^3.5.2",
+        "bootstrap-sass": "^3.3.7",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.3.1",
+        "jquery-ujs": "^1.2.2",
+        "jquery.maskedinput": "^1.4.1",
+        "retinajs": "^2.1.1",
+        "bootstrap-calendar": "^0.2.4"
+    }
 }
