@@ -57,7 +57,7 @@ window.onload = function () {
     'use strict';
     var date = new Date(),
         month = date.getMonth() + 1;
-    $(".container-background").attr('id', "bg" + month);
+    $(".container-background").attr('id', "b" + month);
 };
 
 

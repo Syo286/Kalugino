@@ -1,62 +1,58 @@
-<?php
-    echo '
-        <div class="internal_container">
-        <form method="POST" action="javascript:void(0)" class="form-horizontal" id="contact_subform" role="form" data-toggle="validator">
-            <fieldset>
-                <!-- Name -->
-                <div class="form-group">
-                    <div class="inputGroupContainer" style="padding: 0;">
-                        <div class="input-group">
-                            <input class="form-control" name="name" ID="name" oninput="checkfill(name)" type="name" data-error="Как вас зовут?" placeholder="Как вас зовут?" required>
-                            <div class="help-block with-errors"></div>
-                        </div>
+<div class="internal_container">
+    <form method="POST" action="javascript:void(0)" class="form-horizontal" id="contact_subform" role="form" data-toggle="validator">
+        <fieldset>
+            <!-- Name -->
+            <div class="form-group">
+                <div class="inputGroupContainer" style="padding: 0;">
+                    <div class="input-group">
+                        <input class="form-control" name="name" ID="name" oninput="checkfill(name)" type="name" data-error="Как вас зовут?" placeholder="Как вас зовут?" required>
+                        <div class="help-block with-errors"></div>
                     </div>
                 </div>
-            
-                <!-- Email -->
-                <div class="form-group">
-                    <div class="inputGroupContainer" style="padding: 0;">
-                        <div class="input-group">
-                            <input class="form-control" name="email" ID="email" oninput="checkfillemail()" type="email" data-error="Обязательно укажите ваш E-Mail в формате xxx@xxx.xx" placeholder="На какой email выслать вам ответ?" required>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- Message -->
-                <div class="form-group">
-                    <div class="inputGroupContainer" style="padding: 0;">
-                        <div class="input-group">
-                            <textarea class="form-control" name="message" ID="message" oninput="checkfill(message)" type="text" rows="1" data-error="Напишите нам что-нибудь!" placeholder="Что вы хотите спросить?" required></textarea>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- CAPTCHA -->
-                <div class="form-group">
-                    <div class="inputGroupContainer" style="padding: 0;">
-                        <div class="input-group">
-                            <div class="g-recaptcha hidden animated" data-sitekey="6LfKMQgUAAAAADxZyRPHWfUuA4eR3MW8tiQD2oxL" data-theme="light">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="errors" id="errors" style="display: none"></div>
+            </div>
 
-                <!-- Button -->
-                <div class="form-group">
-                    <div class="inputGroupContainer" style="padding: 0;">
-                        <button type="submit" ID="form-submit" class="btn hidden animated" style="width: 100%;">ЗАДАТЬ ВОПРОС <span class="glyphicon glyphicon-send"></span></button>
+            <!-- Email -->
+            <div class="form-group">
+                <div class="inputGroupContainer" style="padding: 0;">
+                    <div class="input-group">
+                        <input class="form-control" name="email" ID="email" oninput="checkfillemail()" type="email" data-error="Обязательно укажите ваш E-Mail в формате xxx@xxx.xx" placeholder="На какой email выслать вам ответ?" required>
+                        <div class="help-block with-errors"></div>
                     </div>
                 </div>
-                <div id="msgSubmit" class="form_label">
+            </div>
+
+            <!-- Message -->
+            <div class="form-group">
+                <div class="inputGroupContainer" style="padding: 0;">
+                    <div class="input-group">
+                        <textarea class="form-control" name="message" ID="message" oninput="checkfill(message)" type="text" rows="1" data-error="Напишите нам что-нибудь!" placeholder="Что вы хотите спросить?" required></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
                 </div>
-            </fieldset>
-        </form>
-        </div>
-    ';
-?>
+            </div>
+
+            <!-- CAPTCHA -->
+            <div class="form-group">
+                <div class="inputGroupContainer" style="padding: 0;">
+                    <div class="input-group">
+                        <div class="g-recaptcha hidden animated" data-sitekey="6LfKMQgUAAAAADxZyRPHWfUuA4eR3MW8tiQD2oxL" data-theme="light">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="errors" id="errors" style="display: none"></div>
+
+            <!-- Button -->
+            <div class="form-group">
+                <div class="inputGroupContainer" style="padding: 0;">
+                    <button type="submit" ID="form-submit" class="btn hidden animated" style="width: 100%;">ЗАДАТЬ ВОПРОС <span class="glyphicon glyphicon-send"></span></button>
+                </div>
+            </div>
+            <div id="msgSubmit" class="form_label">
+            </div>
+        </fieldset>
+    </form>
+</div>
 
 <!--<script type="text/javascript">
     var a = document.getElementsById("name");

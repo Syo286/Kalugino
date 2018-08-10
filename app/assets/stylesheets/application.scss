@@ -189,6 +189,7 @@ h3 {
 h4 {
     padding-top: 5px;
 
+    font-family: 'Open sans', sans-serif;
     font-size: 1.1em;
     font-weight: 700;
     color: rgba(50, 50, 50, 1);
@@ -537,6 +538,13 @@ tr:hover {
     padding-top: 200px;
     padding-right: 30px;
     padding-bottom: 50px;
+}
+
+.sidebar__block {
+    padding-top: 2.5em;
+    &:first-child {
+        padding-top: 0;
+    }
 }
 
 .sidebar__list-group {
