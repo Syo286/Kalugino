@@ -1,12 +1,16 @@
 {
   "name": "kalugino",
   "version": "1.0.0",
-  "description": "Kalugino website",
+  "description": "Kaluginskiye Prostory website",
   "main": "index.js",
   "scripts": {
     "build": "gulp",
     "watch": "gulp watch",
     "start": "node express.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gitserver:clients/kalugino.git"
   },
   "author": "SiriusDesign",
   "license": "ISC",
@@ -42,6 +46,5 @@
     "jquery-ujs": "^1.2.2",
     "jquery.maskedinput": "^1.4.1",
     "retinajs": "^2.1.1"
-  },
-  "keywords": []
+  }
 }

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="favicon.ico">
+
+        <title>Поселок "Калугинские просторы"</title>
+
+        <!-- Bootstrap core CSS -->
+        <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <link rel="stylesheet" href="css/ie10-viewport-bug-workaround.css">
+        <link rel="stylesheet" href="css/bootstrap.css"> 
+        <link rel="stylesheet" href="css/ionicons.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/style.css">  
+        <link rel="stylesheet" href="plugins/calendar/css/calendar.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300&subset=cyrillic-ext">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic-ext"> 
+      
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,700&subset=cyrillic-ext" rel="stylesheet">
+
+        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+        <script src="js/ie-emulation-modes-warning.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+        
+        <script src='https://www.google.com/recaptcha/api.js?hl=ru'></script>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>    
+    
+    <body>
+        <div class="container-background">
+            <div class="container-gradient"></div>
+        </div>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 header sticky-menu">
+                        <?php include 'page_elements/header.php';?>
+                    </div><!-- header -->
+                </div><!-- row -->
+            </div><!-- container -->
+        </header>
+        
+        <section>
+            <div class="container">
+                <div class="row">
+                    <main class="col-md-9 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0 main-content">            
+            
+                        <div class="main-content__block">
+                            <div class="main-content__well">
+                                <h3>ЭЛЕКТРИЧЕСТВО</h3>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        У поселка собственная подстанция. Собственники участков могут заключить прямые договоры с <a href="http://www.moesk.ru/about/filials/south/#tab-fil_3_v4-link" target="_blank">МОЭСК</a>. Стандартные условия - 15кВт, 3 фазы, 550р.
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="panel panel-btn text-centered">
+                                            <a href="http://www.moesk.ru/client/tex_prisoedinenie/inf/doc/Pribor_ucheta-160216.pdf" target="_blank">
+                                                <div class="panel-body">
+                                                    Требования<br>МОЭСК
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="panel panel-btn text-centered">
+                                            <a href="https://lk.moesk.ru/users/sign_in" target="_blank">
+                                                <div class="panel-body">
+                                                    Подключение к<br>сетям МОЭСК
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="main-content__block">
+                            <div class="main-content__well">
+                                <h3>ДОРОГИ</h3>
+                                Все дороги поселка покрыты щебнем.
+                            </div>
+                        </div>
+            
+                        <div class="main-content__block">
+                            <div class="main-content__well">
+                                <h3>ОХРАНА</h3>
+                                На въезде в поселок расположен домик охраны. Поселок полностью огорожен. Ворота главного входа автоматические. 
+                            </div>
+                        </div>
+            
+                        <div class="main-content__block">
+                            <div class="main-content__well">
+                                <h3>МУСОР</h3>
+                                Поселок заключил договор на вывоз бытового мусора. Весь мусор можно выбрасывать в контейнер, расположенный у главного входа в поселок.
+                            </div>
+                        </div> 
+                        
+                    </main><!-- body -->
+
+                    <aside class="col-md-3 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 sidebar">
+                        <?php include 'page_elements/sidebar.php';?>  
+                    </aside><!-- sidebar -->
+                </div><!-- row -->
+            </div><!-- container -->
+        </section>
+        
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 footer">
+                        <?php include 'page_elements/footer.php';?>
+                    </div><!-- footer -->
+                </div><!-- row -->
+            </div><!-- container -->
+        </footer>
+        
+        <?php include 'php/form.php';?>
+        
+        <script type="text/javascript">
+            document.getElementById("infrastructure").className = "active";
+        </script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="js/ie10-viewport-bug-workaround.js"></script>
+        
+    </body>
+</html>
