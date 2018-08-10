@@ -58,7 +58,7 @@ gulp.task('vendor', function () {
         'node_modules/jquery.maskedinput/dist/jquery.maskedinput.min.js',
         'app/assets/javascripts/bootstrap.js',
         'app/assets/javascripts/validator.js',
-        'app/assets/plugins/calendar/js/calendar.js'
+        'node_modules/bootstrap-calendar/js/calendar.js'
     ])
         .pipe(jshint())
         .pipe(concat('vendor.js'))
@@ -78,7 +78,7 @@ gulp.task('vendor', function () {
     [
         'node_modules/animate.css/animate.min.css',
         'app/assets/stylesheets/bootstrap.css',
-        'app/assets/plugins/calendar/css/calendar.css'
+        'node_modules/bootstrap-calendar/css/calendar.css'
     ])
         .pipe(concatcss('vendor.css', {
             rebaseUrls: false
